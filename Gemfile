@@ -37,6 +37,9 @@ gem 'jquery-rails'
 # API gems
 gem 'active_model_serializers'
 
+# Authentication
+gem "devise" # 4.3.0
+
 
 group :doc do
   # bundle exec rake doc:rails generate the API under doc/api

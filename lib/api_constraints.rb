@@ -6,7 +6,6 @@ class ApiConstraints
   end
 
   def matches?(request)
-    byebug
     @default || request.headers['Accept'].include?("application/vnd.marketplace.v#{@version}")
   end
 
