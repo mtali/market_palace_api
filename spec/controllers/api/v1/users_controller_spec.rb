@@ -1,13 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe Api::V1::UsersController, type: :controller do
-  # Data sent to the server
-  before(:each) { request.headers['Accept'] = "application/vnd.marketplace.v1, #{Mime[:json]}" }
-
-  # Data we are expecting from server
-  before(:each) { request.headers['Content-Type'] = Mime[:json].to_s }
-
-
+  
   describe "GET #show" do
     before(:each) do
       @user = FactoryGirl.create :user
