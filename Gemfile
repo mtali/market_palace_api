@@ -55,6 +55,8 @@ end
 
 group :test do
   gem 'rspec-rails', '~> 3.6'
+  gem 'rspec-collection_matchers' # 1.1.3
+
   gem 'factory_girl_rails'
   gem 'ffaker'
   gem 'shoulda-matchers', git: 'https://github.com/thoughtbot/shoulda-matchers.git', branch: 'rails-5'
