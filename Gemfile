@@ -34,8 +34,9 @@ gem 'coffee-rails', '~> 4.2'
 # Use jquery as JavaScript library
 gem 'jquery-rails'
 
-# API gems
-gem 'active_model_serializers'
+# API gems # 0.10.6
+# Working with root # 0.9.7
+gem 'active_model_serializers', '~>0.10.6'
 
 # Authentication
 gem "devise" # 4.3.0
