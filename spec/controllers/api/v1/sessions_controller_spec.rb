@@ -14,7 +14,7 @@ RSpec.describe Api::V1::SessionsController, type: :controller do
 
       it "return the user record corresponding to a given creditials" do
         @user.reload
-        expect(json_response[:auth_token]).to eql @user.auth_token
+        expect(json_response[:data][:attributes][:'auth-token']).to eql @user.auth_token
       end
 
       it { should respond_with 200 }
