@@ -1,2 +1,3 @@
-# For active_model_serializers 0.10.x
-# ActiveModel::Serializer.config.adapter = :json_api
+# Adapters json, json_api, attributes
+ActiveModel::Serializer.config.adapter = :json
+ActiveModel::Serializer.config.jsonapi_namespace_separator = "_".freeze
