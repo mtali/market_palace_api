@@ -27,8 +27,7 @@ RSpec.describe Api::V1::OrdersController, type: :controller do
     end
 
     it "returns the user order record mathing the id" do
-      order_response = json_response
-      byebug
+      order_response = json_response[:order]
       expect(order_response[:id]).to eql @order.id
     end
 
