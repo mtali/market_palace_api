@@ -16,5 +16,5 @@ The tutorial can be found at the following link
 # Need help
 I will always be grateful to hear from other rails developers out there.
 You can check me on the following
-[TWITTER] https://twitter.com/emmanuel_mtali
-[FACEBOOK] https://www.facebook.com/emmanuel.mtali.1
+[TWITTER](https://twitter.com/emmanuel_mtali)
+[FACEBOOK](https://www.facebook.com/emmanuel.mtali.1)
