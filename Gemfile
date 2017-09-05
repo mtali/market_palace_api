@@ -41,6 +41,9 @@ gem 'active_model_serializers', '~> 0.10.6'
 # Authentication
 gem "devise" # 4.3.0
 
+# Pagination # 1.0.1
+gem 'kaminari'
+
 
 group :doc do
   # bundle exec rake doc:rails generate the API under doc/api
