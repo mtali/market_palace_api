@@ -44,6 +44,9 @@ gem "devise" # 4.3.0
 # Pagination # 1.0.1
 gem 'kaminari'
 
+# Delay optimization
+gem 'delayed_job_active_record'
+
 
 group :doc do
   # bundle exec rake doc:rails generate the API under doc/api
