@@ -11,7 +11,10 @@ class Order < ApplicationRecord
 
 
   def set_total!
-    self.total = products.map(&:price).sum
+    self.total = 0
+    placements.each do |p|
+      self.total += p.product.price * p.quantity
+    end
   end
 
   # Buid placement object and once we save the order everthing will be saved to the database
