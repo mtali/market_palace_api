@@ -2,7 +2,7 @@
 I did this project as a tutorial for building my own rails API specifically for
 android client applications.
 The tutorial can be found at the following link
-[API ON RAILS] http://apionrails.icalialabs.com/book/
+[API ON RAILS](http://apionrails.icalialabs.com/book/)
 
 # Ruby version
 > 2.3.1
