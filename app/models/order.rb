@@ -13,11 +13,11 @@ class Order < ApplicationRecord
     self.total = products.map(&:price).sum
   end
 
-  # Buid placement object and once we save the order everthing will be saved to the database 
+  # Buid placement object and once we save the order everthing will be saved to the database
   def build_placements_with_product_ids_and_quantities(product_ids_and_quantities)
     product_ids_and_quantities.each do |ps_ids_and_qs|
       id, quantity = ps_ids_and_qs
-      self.placements.build(product_id: id)
+      self.placements.build(product_id: id, quantity: quantity)
     end
   end
 end
